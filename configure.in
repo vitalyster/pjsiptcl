@@ -18,7 +18,6 @@ TEA_SETUP_COMPILER
 
 
 TEA_ADD_SOURCES([pjsipua.c XThreadUtil.c])
-TEA_ADD_INCLUDES([-I${srcdir}/generic -I${srcdir}/expat ${AOL_INCLUDES}])
 
 PKG_CHECK_MODULES(PJ, libpjproject)
 TEA_ADD_CFLAGS([${PJ_CFLAGS}])
