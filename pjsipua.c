@@ -191,6 +191,7 @@ static Tcl_ThreadId sMainThreadID;
 
 /* os-dependent macros, etc. From iaxclient. */
 #if defined(WIN32)  ||  defined(_WIN32_WCE)
+#include <windows.h>
 #define MUTEX CRITICAL_SECTION
 #define MUTEXINIT(m) InitializeCriticalSection(m)
 #define MUTEXLOCK(m) EnterCriticalSection(m)
@@ -204,8 +205,8 @@ static Tcl_ThreadId sMainThreadID;
 #define MUTEXDESTROY(m) pthread_mutex_destroy(m)
 #endif
 
-static pthread_mutex_t notifyRecordMutex;
-static pthread_mutex_t asyncCallbackMutex;
+static MUTEX notifyRecordMutex;
+static MUTEX asyncCallbackMutex;
 
 /* TCL Interpe variable */
 static Tcl_Interp *sInterp = NULL;
@@ -444,7 +445,7 @@ MUTEXINIT(&asyncCallbackMutex);
 			    Tcl_NewStringObj( "Error Pjsiptcl_Init: No transport Configured", -1 ));
 		return TCL_ERROR;
     }
-
+#if DISABLED_FOR_TICKET_1185
     /* Add RTP transports */
     status = pjsua_media_transports_create(&app_config.rtp_cfg);
     if (status != PJ_SUCCESS)  {
@@ -454,7 +455,7 @@ MUTEXINIT(&asyncCallbackMutex);
 			    Tcl_NewStringObj( "Error Pjsiptcl_Init: No Transport added", -1 ));
 			return TCL_ERROR;
 	}
-
+#endif
     status = pjsua_start();
     if (status != PJ_SUCCESS) {
 		pjsua_destroy();
