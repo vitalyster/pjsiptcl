@@ -1,0 +1,52 @@
+#!/bin/bash -norc
+dnl	This file is an input file used by the GNU "autoconf" program to
+dnl	generate the file "configure", which is run during Tcl installation
+dnl	to configure the system for the local environment.
+
+AC_INIT([pjsiptcl], [0.1])
+
+TEA_INIT([3.9])
+
+AC_CONFIG_AUX_DIR(tclconfig)
+
+TEA_PATH_TCLCONFIG
+TEA_LOAD_TCLCONFIG
+
+TEA_PREFIX
+
+TEA_SETUP_COMPILER
+
+
+TEA_ADD_SOURCES([pjsipua.c XThreadUtil.c])
+TEA_ADD_INCLUDES([-I${srcdir}/generic -I${srcdir}/expat ${AOL_INCLUDES}])
+
+PKG_CHECK_MODULES(PJ, libpjproject)
+TEA_ADD_CFLAGS([${PJ_CFLAGS}])
+TEA_ADD_LIBS([${PJ_LIBS}])
+
+if test "${TEA_PLATFORM}" = "windows" ; then
+    AC_DEFINE(BUILD_pjsiptcl)
+    CLEANFILES="pkgIndex.tcl *.lib *.dll *.exp *.ilk *.pdb vc*.pch"
+else
+    CLEANFILES="pkgIndex.tcl"
+fi
+AC_SUBST(CLEANFILES)
+
+
+TEA_PUBLIC_TCL_HEADERS
+
+TEA_ENABLE_THREADS
+
+
+TEA_ENABLE_SHARED
+
+TEA_CONFIG_CFLAGS
+
+TEA_ENABLE_SYMBOLS
+
+
+AC_DEFINE(USE_TCL_STUBS, 1, [Use Tcl stubs])
+
+TEA_MAKE_LIB
+
+AC_OUTPUT([Makefile])
