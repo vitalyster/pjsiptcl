@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A94042940B1F781A00D319CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94042900B1F781A00D319CC /* AudioToolbox.framework */; };
+		A94042950B1F781A00D319CC /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94042910B1F781A00D319CC /* AudioUnit.framework */; };
+		A94042960B1F781A00D319CC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94042920B1F781A00D319CC /* CoreAudio.framework */; };
+		A94042970B1F781A00D319CC /* Tcl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94042930B1F781A00D319CC /* Tcl.framework */; };
+		A94042A30B1F782E00D319CC /* pjsipua.c in Sources */ = {isa = PBXBuildFile; fileRef = A94042A10B1F782E00D319CC /* pjsipua.c */; };
+		A94042A40B1F782E00D319CC /* XThreadUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = A94042A20B1F782E00D319CC /* XThreadUtil.c */; };
+		A94044260B1F7A4B00D319CC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94044250B1F7A4B00D319CC /* Cocoa.framework */; };
+		A99946730B2033F800832D55 /* libpj-powerpc-apple-darwin8.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A99946720B2033F800832D55 /* libpj-powerpc-apple-darwin8.8.0.a */; };
+		A999467F0B20341C00832D55 /* libpjmedia-codec-powerpc-apple-darwin8.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A999467C0B20341C00832D55 /* libpjmedia-codec-powerpc-apple-darwin8.8.0.a */; };
+		A99946800B20341C00832D55 /* libpjmedia-powerpc-apple-darwin8.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A999467D0B20341C00832D55 /* libpjmedia-powerpc-apple-darwin8.8.0.a */; };
+		A99946810B20341C00832D55 /* libpjsdp-powerpc-apple-darwin8.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A999467E0B20341C00832D55 /* libpjsdp-powerpc-apple-darwin8.8.0.a */; };
+		A99946860B20342C00832D55 /* libpjsua-powerpc-apple-darwin8.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A99946820B20342C00832D55 /* libpjsua-powerpc-apple-darwin8.8.0.a */; };
+		A99946870B20342C00832D55 /* libpjsip-powerpc-apple-darwin8.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A99946830B20342C00832D55 /* libpjsip-powerpc-apple-darwin8.8.0.a */; };
+		A99946880B20342C00832D55 /* libpjsip-simple-powerpc-apple-darwin8.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A99946840B20342C00832D55 /* libpjsip-simple-powerpc-apple-darwin8.8.0.a */; };
+		A99946890B20342C00832D55 /* libpjsip-ua-powerpc-apple-darwin8.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A99946850B20342C00832D55 /* libpjsip-ua-powerpc-apple-darwin8.8.0.a */; };
+		A9C598860B31FAF1009FD053 /* libpjlib-util-powerpc-apple-darwin8.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C598850B31FAF1009FD053 /* libpjlib-util-powerpc-apple-darwin8.8.0.a */; };
+		A9E007530B5658AB009A85F2 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E007520B5658AB009A85F2 /* libcrypto.a */; };
+		A9E007550B5658BB009A85F2 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E007540B5658BB009A85F2 /* libssl.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A94042900B1F781A00D319CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		A94042910B1F781A00D319CC /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		A94042920B1F781A00D319CC /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		A94042930B1F781A00D319CC /* Tcl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tcl.framework; path = /System/Library/Frameworks/Tcl.framework; sourceTree = "<absolute>"; };
+		A94042A10B1F782E00D319CC /* pjsipua.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = pjsipua.c; sourceTree = "<group>"; };
+		A94042A20B1F782E00D319CC /* XThreadUtil.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = XThreadUtil.c; sourceTree = "<group>"; };
+		A94044250B1F7A4B00D319CC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		A99946720B2033F800832D55 /* libpj-powerpc-apple-darwin8.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpj-powerpc-apple-darwin8.8.0.a"; path = "../pjlib/lib/libpj-powerpc-apple-darwin8.8.0.a"; sourceTree = SOURCE_ROOT; };
+		A999467C0B20341C00832D55 /* libpjmedia-codec-powerpc-apple-darwin8.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-codec-powerpc-apple-darwin8.8.0.a"; path = "../pjmedia/lib/libpjmedia-codec-powerpc-apple-darwin8.8.0.a"; sourceTree = SOURCE_ROOT; };
+		A999467D0B20341C00832D55 /* libpjmedia-powerpc-apple-darwin8.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjmedia-powerpc-apple-darwin8.8.0.a"; path = "../pjmedia/lib/libpjmedia-powerpc-apple-darwin8.8.0.a"; sourceTree = SOURCE_ROOT; };
+		A999467E0B20341C00832D55 /* libpjsdp-powerpc-apple-darwin8.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsdp-powerpc-apple-darwin8.8.0.a"; path = "../pjmedia/lib/libpjsdp-powerpc-apple-darwin8.8.0.a"; sourceTree = SOURCE_ROOT; };
+		A99946820B20342C00832D55 /* libpjsua-powerpc-apple-darwin8.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsua-powerpc-apple-darwin8.8.0.a"; path = "../pjsip/lib/libpjsua-powerpc-apple-darwin8.8.0.a"; sourceTree = SOURCE_ROOT; };
+		A99946830B20342C00832D55 /* libpjsip-powerpc-apple-darwin8.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-powerpc-apple-darwin8.8.0.a"; path = "../pjsip/lib/libpjsip-powerpc-apple-darwin8.8.0.a"; sourceTree = SOURCE_ROOT; };
+		A99946840B20342C00832D55 /* libpjsip-simple-powerpc-apple-darwin8.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-simple-powerpc-apple-darwin8.8.0.a"; path = "../pjsip/lib/libpjsip-simple-powerpc-apple-darwin8.8.0.a"; sourceTree = SOURCE_ROOT; };
+		A99946850B20342C00832D55 /* libpjsip-ua-powerpc-apple-darwin8.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjsip-ua-powerpc-apple-darwin8.8.0.a"; path = "../pjsip/lib/libpjsip-ua-powerpc-apple-darwin8.8.0.a"; sourceTree = SOURCE_ROOT; };
+		A9C598850B31FAF1009FD053 /* libpjlib-util-powerpc-apple-darwin8.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpjlib-util-powerpc-apple-darwin8.8.0.a"; path = "../pjlib-util/lib/libpjlib-util-powerpc-apple-darwin8.8.0.a"; sourceTree = SOURCE_ROOT; };
+		A9E007520B5658AB009A85F2 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = /sw/lib/libcrypto.a; sourceTree = "<absolute>"; };
+		A9E007540B5658BB009A85F2 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = /sw/lib/libssl.a; sourceTree = "<absolute>"; };
+		D2AAC0C705546C1D00DB518D /* pjsiptcl.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = pjsiptcl.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC0C505546C1D00DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94042940B1F781A00D319CC /* AudioToolbox.framework in Frameworks */,
+				A94042950B1F781A00D319CC /* AudioUnit.framework in Frameworks */,
+				A94042960B1F781A00D319CC /* CoreAudio.framework in Frameworks */,
+				A94042970B1F781A00D319CC /* Tcl.framework in Frameworks */,
+				A94044260B1F7A4B00D319CC /* Cocoa.framework in Frameworks */,
+				A99946730B2033F800832D55 /* libpj-powerpc-apple-darwin8.8.0.a in Frameworks */,
+				A999467F0B20341C00832D55 /* libpjmedia-codec-powerpc-apple-darwin8.8.0.a in Frameworks */,
+				A99946800B20341C00832D55 /* libpjmedia-powerpc-apple-darwin8.8.0.a in Frameworks */,
+				A99946810B20341C00832D55 /* libpjsdp-powerpc-apple-darwin8.8.0.a in Frameworks */,
+				A99946860B20342C00832D55 /* libpjsua-powerpc-apple-darwin8.8.0.a in Frameworks */,
+				A99946870B20342C00832D55 /* libpjsip-powerpc-apple-darwin8.8.0.a in Frameworks */,
+				A99946880B20342C00832D55 /* libpjsip-simple-powerpc-apple-darwin8.8.0.a in Frameworks */,
+				A99946890B20342C00832D55 /* libpjsip-ua-powerpc-apple-darwin8.8.0.a in Frameworks */,
+				A9C598860B31FAF1009FD053 /* libpjlib-util-powerpc-apple-darwin8.8.0.a in Frameworks */,
+				A9E007530B5658AB009A85F2 /* libcrypto.a in Frameworks */,
+				A9E007550B5658BB009A85F2 /* libssl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC0C705546C1D00DB518D /* pjsiptcl.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* pjsiptcl */ = {
+			isa = PBXGroup;
+			children = (
+				A94042A50B1F784900D319CC /* libs */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = pjsiptcl;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A9E007540B5658BB009A85F2 /* libssl.a */,
+				A9E007520B5658AB009A85F2 /* libcrypto.a */,
+				A94044250B1F7A4B00D319CC /* Cocoa.framework */,
+				A94042900B1F781A00D319CC /* AudioToolbox.framework */,
+				A94042910B1F781A00D319CC /* AudioUnit.framework */,
+				A94042920B1F781A00D319CC /* CoreAudio.framework */,
+				A94042930B1F781A00D319CC /* Tcl.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A94042A10B1F782E00D319CC /* pjsipua.c */,
+				A94042A20B1F782E00D319CC /* XThreadUtil.c */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A94042A50B1F784900D319CC /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				A9C598850B31FAF1009FD053 /* libpjlib-util-powerpc-apple-darwin8.8.0.a */,
+				A99946720B2033F800832D55 /* libpj-powerpc-apple-darwin8.8.0.a */,
+				A999467C0B20341C00832D55 /* libpjmedia-codec-powerpc-apple-darwin8.8.0.a */,
+				A999467D0B20341C00832D55 /* libpjmedia-powerpc-apple-darwin8.8.0.a */,
+				A999467E0B20341C00832D55 /* libpjsdp-powerpc-apple-darwin8.8.0.a */,
+				A99946820B20342C00832D55 /* libpjsua-powerpc-apple-darwin8.8.0.a */,
+				A99946830B20342C00832D55 /* libpjsip-powerpc-apple-darwin8.8.0.a */,
+				A99946840B20342C00832D55 /* libpjsip-simple-powerpc-apple-darwin8.8.0.a */,
+				A99946850B20342C00832D55 /* libpjsip-ua-powerpc-apple-darwin8.8.0.a */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC0C305546C1D00DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC0C605546C1D00DB518D /* pjsiptcl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB917D08733D990010E9CD /* Build configuration list for PBXNativeTarget "pjsiptcl" */;
+			buildPhases = (
+				D2AAC0C305546C1D00DB518D /* Headers */,
+				D2AAC0C405546C1D00DB518D /* Sources */,
+				D2AAC0C505546C1D00DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pjsiptcl;
+			productName = pjsiptcl;
+			productReference = D2AAC0C705546C1D00DB518D /* pjsiptcl.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB918108733D990010E9CD /* Build configuration list for PBXProject "pjsiptcl" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* pjsiptcl */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			targets = (
+				D2AAC0C605546C1D00DB518D /* pjsiptcl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC0C405546C1D00DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94042A30B1F782E00D319CC /* pjsipua.c in Sources */,
+				A94042A40B1F782E00D319CC /* XThreadUtil.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB917E08733D990010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G4;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "PJ_AUTOCONF=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_5)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_6)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_7)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_8)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_9)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_10)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_11)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_12)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_1)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_2)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_3)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_4)",
+				);
+				HEADER_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../pjlib/include\"";
+				HEADER_SEARCH_PATHS_QUOTED_10 = "\"$(SRCROOT)/../pjsip/include/pjsip-simple\"";
+				HEADER_SEARCH_PATHS_QUOTED_11 = "\"$(SRCROOT)/../pjsip/include/pjsip-ua\"";
+				HEADER_SEARCH_PATHS_QUOTED_12 = "\"$(SRCROOT)/../pjsip/include/pjsua-lib\"";
+				HEADER_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../pjlib-util/include\"";
+				HEADER_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/../pjmedia/include\"";
+				HEADER_SEARCH_PATHS_QUOTED_4 = "\"$(SRCROOT)/../pjsip/include\"";
+				HEADER_SEARCH_PATHS_QUOTED_5 = "\"$(SRCROOT)/../pjlib/include/pj\"";
+				HEADER_SEARCH_PATHS_QUOTED_6 = "\"$(SRCROOT)/../pjlib/include/pj++\"";
+				HEADER_SEARCH_PATHS_QUOTED_7 = "\"$(SRCROOT)/../pjmedia/include/pjmedia\"";
+				HEADER_SEARCH_PATHS_QUOTED_8 = "\"$(SRCROOT)/../pjmedia/include/pjmedia-codec\"";
+				HEADER_SEARCH_PATHS_QUOTED_9 = "\"$(SRCROOT)/../pjsip/include/pjsip\"";
+				INFOPLIST_PREFIX_HEADER = "$(inherited) com.apple.kpi.libkern";
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_5)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_6)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_7)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_8)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_9)",
+					/sw/lib,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../pjlib/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../pjsip/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/../pjmedia/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_4 = "\"$(SRCROOT)/../pjlib-util/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_5 = "\"$(SRCROOT)/../pjlib/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_6 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_7 = "\"$(SRCROOT)/../pjmedia/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_8 = "\"$(SRCROOT)/../pjsip/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_9 = "\"$(SRCROOT)/../pjlib-util/lib\"";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = pjsiptcl;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB917F08733D990010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "PJ_AUTOCONF=1";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_5)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_6)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_7)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_8)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_9)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_10)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_11)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_12)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_1)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_2)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_3)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_4)",
+				);
+				HEADER_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../pjlib/include\"";
+				HEADER_SEARCH_PATHS_QUOTED_10 = "\"$(SRCROOT)/../pjsip/include/pjsip-simple\"";
+				HEADER_SEARCH_PATHS_QUOTED_11 = "\"$(SRCROOT)/../pjsip/include/pjsip-ua\"";
+				HEADER_SEARCH_PATHS_QUOTED_12 = "\"$(SRCROOT)/../pjsip/include/pjsua-lib\"";
+				HEADER_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../pjlib-util/include\"";
+				HEADER_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/../pjmedia/include\"";
+				HEADER_SEARCH_PATHS_QUOTED_4 = "\"$(SRCROOT)/../pjsip/include\"";
+				HEADER_SEARCH_PATHS_QUOTED_5 = "\"$(SRCROOT)/../pjlib/include/pj\"";
+				HEADER_SEARCH_PATHS_QUOTED_6 = "\"$(SRCROOT)/../pjlib/include/pj++\"";
+				HEADER_SEARCH_PATHS_QUOTED_7 = "\"$(SRCROOT)/../pjmedia/include/pjmedia\"";
+				HEADER_SEARCH_PATHS_QUOTED_8 = "\"$(SRCROOT)/../pjmedia/include/pjmedia-codec\"";
+				HEADER_SEARCH_PATHS_QUOTED_9 = "\"$(SRCROOT)/../pjsip/include/pjsip\"";
+				INFOPLIST_PREFIX_HEADER = "$(inherited) \n<key>com.apple.kpi.libkern</key>\n<string>8.0</string>";
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_5)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_6)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_7)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_8)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_9)",
+					/sw/lib,
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../pjlib/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../pjsip/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/../pjmedia/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_4 = "\"$(SRCROOT)/../pjlib-util/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_5 = "\"$(SRCROOT)/../pjlib/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_6 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_7 = "\"$(SRCROOT)/../pjmedia/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_8 = "\"$(SRCROOT)/../pjsip/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_9 = "\"$(SRCROOT)/../pjlib-util/lib\"";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = pjsiptcl;
+			};
+			name = Release;
+		};
+		1DEB918208733D990010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB918308733D990010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB917D08733D990010E9CD /* Build configuration list for PBXNativeTarget "pjsiptcl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB917E08733D990010E9CD /* Debug */,
+				1DEB917F08733D990010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB918108733D990010E9CD /* Build configuration list for PBXProject "pjsiptcl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB918208733D990010E9CD /* Debug */,
+				1DEB918308733D990010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
