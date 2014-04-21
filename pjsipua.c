@@ -463,12 +463,12 @@ MUTEXINIT(&asyncCallbackMutex);
     }
 	
 	
-	/* Ring Tone Init */
+/*	/* Ring Tone Init 
 	app_ring_tone.pool = pjsua_pool_create("tone_gen", 4000, 4000);
 	if (pjmedia_tonegen_create(app_ring_tone.pool, 8000, 1, 64 / 10, 16, 0, &app_ring_tone.current_tone) == PJ_SUCCESS) {
 		pjsua_conf_add_port(app_ring_tone.pool, app_ring_tone.current_tone, &app_ring_tone.port);
 	}
-	
+*/	
 
 	/* Sets default Signals Level and Input/Output Devices*/
 	pjsua_conf_adjust_tx_level( 0, app_config.mic_level);
@@ -493,7 +493,7 @@ MUTEXINIT(&asyncCallbackMutex);
     sTimerToken = Tcl_CreateTimerHandler(kTimerPollEventsMillis, PollEvents, NULL); 
 #endif
 
-    return Tcl_PkgProvide( interp, "pjsip", "0.1" );
+    return Tcl_PkgProvide( interp, "pjsiptcl", "0.1" );
 }
 
 /*
