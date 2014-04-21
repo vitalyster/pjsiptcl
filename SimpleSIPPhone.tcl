@@ -1,7 +1,7 @@
 # Simple iax phone.
 
-package require pjsip
-package require tile
+package require pjsiptcl
+package require Tk
 
 set registrar sip:fwd.pulver.com
 set useruri sip:823359@fwd.pulver.com
