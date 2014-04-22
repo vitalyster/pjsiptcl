@@ -276,7 +276,7 @@ static int load_acc_data(struct app_config *cfg,
 	/* Proxy and reg_uri: equal outboundproxy */
 //	cfg->account_cfg.proxy_cnt=1;
 //	cfg->account_cfg.proxy[0] = pj_str(registrar);
-
+	pjsua_acc_config_default(&cfg->account_cfg);
 	cfg->account_cfg.reg_uri = pj_str(registrar);
 	cfg->account_cfg.reg_timeout = 300;
 	cfg->account_cfg.publish_enabled = PJ_FALSE;
